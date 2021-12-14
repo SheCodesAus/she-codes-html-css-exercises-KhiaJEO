@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+/* you can use the "*" which applies to all styles in this sheet and run this to see changes made. The above will show a grey line around each div so you can see changes. especially if its small */
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     background-color: #fff;
 }
 
@@ -12,7 +16,10 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial;
+    font-size: 20px;
 }
 
 h1 {
@@ -31,6 +38,7 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 20em;
 }
 
 a {
@@ -63,4 +71,12 @@ footer {
     color: #fff;
 }
 
-/* Your code here */
+nav a {
+    display: block;
+}
+
+#homepage-image {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed #4287f5
+}
