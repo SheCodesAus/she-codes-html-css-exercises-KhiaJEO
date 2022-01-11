@@ -30,3 +30,26 @@ div {
 }
 
 /*** Your code here ***/
+@media (min-width: 500px) {
+    div {
+        display: inline-block; 
+        width: 44%;
+    }
+    #div-1, #div-2 {
+        background-color: yellow;
+    }
+    #div-3, #div-4 {
+        background-color: blue;
+    }
+}
+
+/* Min-width is 900px and all the divs are the same colour in a row */
+@media (min-width: 900px) {
+    div {
+        display: inline-block;
+        width: 22%;
+    }
+    #div-1, #div-2, #div-3, #div-4 {
+        background-color: #9370db;
+    }
+}
